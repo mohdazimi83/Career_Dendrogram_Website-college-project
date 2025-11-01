@@ -27,4 +27,4 @@ This project helped me understand how to design, structure, and connect multiple
 
 ---
 
-### 👨‍💻 Developed with ❤️ by **AziRoy👑 and Team**
+### 👨‍💻 Developed with ❤️ by **Mohd Azim I👑 and Team**
