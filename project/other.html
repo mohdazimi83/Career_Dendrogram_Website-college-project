@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DP-CD-27</title>
+</head>
+<body>
+     <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OTHER CAREER PATHS</title>
+  <style>
+    /* Define styles for the tree structure */
+    .tree {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 1.2rem;
+    }
+    .tree li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    .tree li:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-left: 1px solid black;
+      height: 100%;
+    }
+    .tree li:last-child:before {
+      height: 50%;
+    }
+    .tree li:last-child:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      border-left: 1px solid black;
+      height: 50%;
+      width: 20px;
+    }
+    .tree li.collapsed:before {
+      display: none;
+    }
+    /* Define styles for the move button */
+    #move-button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>OTHER CAREER PATHS</h1>
+  <ul class="tree">
+    <li>Node 1
+      <ul>
+        <li>Node 2
+          <ul>
+            <li>Node 3</li>
+            <li>Node 4</li>
+          </ul>
+        </li>
+        <li>Node 5
+          <ul>
+            <li>Node 6</li>
+            <li>Node 7</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Node 8
+      <ul>
+        <li>Node 9</li>
+        <li>Node 10</li>
+      </ul>
+    </li>
+    <li>Node 11
+      <ul>
+        <li>Node 12</li>
+        <li>Node 13</li>
+        <li>Node 14</li>
+        <li>Node 15</li>
+        <li>Node 16</li>
+      </ul>
+    </li>
+  </ul>
+  <button id="move-button">Move Tree</button>
+  <script>
+    // Add click event listener to the move button
+    var moveButton = document.getElementById("move-button");
+    moveButton.addEventListener("click", function() {
+      // Get the tree element
+      var tree = document.querySelector(".tree");
+      // Move the tree
+      tree.style.transform = "translate(200px, 0)";
+    });
+  </script>
+</body>
+</html>
+
+</body>
+</html>

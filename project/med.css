@@ -1,0 +1,51 @@
+.node circle {     
+  fill: #e2a5be;    
+  stroke: rgb(10, 23, 35);    
+  stroke-width: 1.5px; 
+  scroll-padding-bottom: 100%;
+  
+} 
+.node {    
+  font: 20px  serif; 
+} 
+.link {    
+  fill: none;    
+  stroke: #1f1e1e;    
+  stroke-width: 2.5px; 
+  
+}
+body{
+  word-spacing: 0.25rem;
+  background-color: #c9f5cf;
+  background: url(project/engg5.jfif) no-repeat/cover;
+}
+.dendrogram .node{
+  width: auto!important;
+}
+h1{
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+

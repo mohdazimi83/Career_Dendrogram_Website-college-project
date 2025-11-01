@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-image-outset: 0;
+    image-orientation: from-image;
+    image-rendering: crisp-edges;
+}
